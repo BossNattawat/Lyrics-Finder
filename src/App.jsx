@@ -67,7 +67,7 @@ function App() {
               />
               <button
                 type="submit"
-                className="btn btn-success text-base-content btn-lg"
+                className="btn btn-success text-white btn-lg"
               >
                 <FaSearch size={20} /> Search
               </button>
