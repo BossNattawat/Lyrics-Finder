@@ -41,10 +41,10 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen bg-base-100">
         <div className="container mx-auto p-4 flex-grow">
           <header className="items-center flex flex-col gap-y-3">
-            <h1 className="text-4xl font-bold my-5 text-white">
+            <h1 className="text-4xl font-bold my-5 text-base-content">
               Lyrics Finder
             </h1>
             <form
@@ -67,7 +67,7 @@ function App() {
               />
               <button
                 type="submit"
-                className="btn btn-success text-white btn-lg"
+                className="btn btn-success text-base-content btn-lg"
               >
                 <FaSearch size={20} /> Search
               </button>
@@ -96,7 +96,7 @@ function App() {
             {loading && (
               <span className="loading loading-spinner loading-xl"></span>
             )}
-            <div className="text-white text-center text-xl mt-8 w-full sm:w-3/4 lg:w-1/2 mx-auto p-4 whitespace-pre-wrap">
+            <div className="text-base-content text-center text-xl mt-8 w-full sm:w-3/4 lg:w-1/2 mx-auto p-4 whitespace-pre-wrap">
               {lyrics}
             </div>
           </div>
